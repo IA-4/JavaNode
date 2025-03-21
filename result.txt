@@ -1,0 +1,34 @@
+Addresses:
+
+ Seed text:           rtk1hsdf2a-L
+ Seed:                3AGmb13gR3fVpkZcw
+ Account seed:        2h2jSKdKDkT8hWCWDzokXPfGXCpmD3EzyvpiqwxPPAdn
+ Private account key: BG9rYnFA7cCwqspzDEAnXhGtX9qV4eN5eJDjjfxzzcvX
+ Public account key:  2DM1BGRcmdCKtZFR79gvzVCppJZSvW3LDNt82DjgnKot
+ Account address:     3LGVg7WRgtUKhpTXe2Zf8XBZ8iU6Yor8Lrh
+ ===
+Settings:
+waves {
+  blockchain.custom {
+    address-scheme-character = P
+    functionality {
+      pre-activated-features = null # undefines all previously defined pre-activated features
+      pre-activated-features = {1 = 0, 2 = 0, 3 = 0, 4 = 0, 5 = 0, 6 = 0, 7 = 0, 8 = 0, 9 = 0, 10 = 0, 11 = 0, 12 = 0, 13 = 0, 14 = 0, 15 = 0, 16 = 0}
+    }
+    genesis {
+      average-block-delay: 10s
+      initial-base-target: 1000000
+      timestamp: 1698432679431 # 2023-10-27T18:51:19.431Z
+      block-timestamp: 1698432679431 # 2023-10-27T18:51:19.431Z
+      signature: "4dfhJ795gAPoCQh2uh1yLJdqmNnT93xsVmDMm3S7Li6k2jH9u3Y24BFYM5ADgFNwRosxizxS7rS3bC9wRcNnD4A2"
+      initial-balance: 10000000000000000
+      transactions = [
+        {recipient: "3LGVg7WRgtUKhpTXe2Zf8XBZ8iU6Yor8Lrh", amount: 10000000000000000}
+      ]
+    }
+  }
+#  wallet {
+#    seed = 3AGmb13gR3fVpkZcw
+#    password =
+#  }
+}
